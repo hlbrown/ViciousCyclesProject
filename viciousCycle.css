@@ -5,20 +5,62 @@
     float:left;
     padding-right: 3em;
     margin-top: 1.5px;
-    margin-left: 1.5px;
+    
     margin-right: 1.5px;
     
 }
+body {background-color:#d4f4fd;
+    margin-top:1.5;}
+.navbar, ul{
+        list-style-type: none;
+        margin:0;
+        padding:5px;
+        
+        text-align: right;
+        background-color:darkgray;
+        border: 1px solid #e7e7e7;
+        position: absolute;
+        width:100%;
+        margin-top:50px;
+    }
+ .navbar, ul li a{
+        text-decoration: none;
+        display:block;
+        padding:14px 16px 10px;
+        color:black;
+        font-size:large;
+        font-weight: bold;
+}
+.navbar, ul li{
+        
+        display:inline-block;
+        background-color:orange;
+        height:auto;   
+        padding:2px 2px;
+        margin-right:1.5px;
+           
+    }
+li a:hover{
+        background-color:#111;
+
+    }
+
 .content{
     margin-top:75px;
 }
 
+.logo{
+    max-width:400px;
+    min-width: 180px;
+    max-height: 50px;
+    margin-left:0;
+}
 
 .cityandbike{
     max-width: 400px;
     max-height: 400px;
     float:left;
-    margin-left: 2em;
+    margin-left: 2px;
     padding-right: 1em;
 }
 
