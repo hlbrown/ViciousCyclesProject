@@ -1,1 +1,78 @@
 /*style sheet for index.html*/
+.responsive{
+    max-width: 100%;
+    height:auto;
+    float:left;
+    padding-right: 3em;
+    margin-top: 1.5px;
+    margin-left: 1.5px;
+    margin-right: 1.5px;
+    
+}
+.content{
+    margin-top:75px;
+}
+
+
+.cityandbike{
+    max-width: 400px;
+    max-height: 400px;
+    float:left;
+    margin-left: 2em;
+    padding-right: 1em;
+}
+
+.h1{
+    text-align: center;
+}
+
+.footer{
+position:absolute;
+display:inline-block;
+left:0;
+bottom:0;
+width:100px;
+height: 50px;
+margin-left: 1.5px;
+margin-bottom: 1.5px
+}
+.row{
+    display:flex;
+}
+.row::after{
+    
+    clear:both;
+    display: table;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.column{
+    float:left;
+    padding: 5px;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    
+    
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    
+   
+  }
+
